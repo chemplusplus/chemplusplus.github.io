@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
-*{
+.main{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,6 +7,7 @@
   color: #fef9ef;
   background-color: #373e40;
 }
+
 nav{
   background: #373e40;
   padding: 5px 40px;
