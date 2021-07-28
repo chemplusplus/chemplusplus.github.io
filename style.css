@@ -103,9 +103,10 @@ nav ul li.btn.hide i:before{
 }
 
 .bgimg-1 {
-  background-image: url("main.jpg");
-  min-height: 400px;
-  background-color: #fef9ef;
+  text-align: center;
+  font-size: 172px;
+  font-family: "Montserrat";
+  font-weight: 100;
 }
 
 .caption {
