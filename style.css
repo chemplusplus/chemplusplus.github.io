@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Open Sans, 'Montserrat';
+  font-family: "Open Sans", 'Montserrat';
   color: #fef9ef;
   background-color: #373e40;
 }
@@ -37,7 +37,7 @@ nav ul li.menu:after{
   bottom: 5px;
   height: 2px;
   width: 100%;
-  background: #33ffff;
+  background: #17c3b2;
   opacity: 0;
   transition: all 0.2s linear;
 }
@@ -60,7 +60,7 @@ nav ul li a{
   transition: .4s;
 }
 nav ul li:hover a{
-  color: cyan;
+  color: #17c3b2;
 }
 nav ul li i{
   font-size: 23px;
@@ -87,8 +87,8 @@ nav ul li.btn.hide i:before{
   }
   nav ul li.items:hover{
     border-radius: 5px;
-    box-shadow: inset 0 0 5px #33ffff,
-                inset 0 0 10px #66ffff;
+    box-shadow: inset 0 0 5px #17c3b2,
+                inset 0 0 10px #17c3b2;
   }
   nav ul li.items:hover:after{
     opacity: 0;
@@ -123,4 +123,28 @@ nav ul li.btn.hide i:before{
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+.post-container {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+.post-thumb {
+    float: right
+}
+.post-thumb img {
+    display: block
+    width: 750px;
+    height: 521px;
+}
+.post-content {
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+.post-title {
+    font-size: 200%
+    font-family: "Open Sans";
+}
+.textmain{
+  margin-left: 10px
 }
