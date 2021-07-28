@@ -95,14 +95,14 @@ nav ul li.btn.hide i:before{
   }
 }
 
-.bgimg-1{
+.backgroundtext{
   position: relative;
   opacity: 0.65;
   background-position: center;
   background-size: cover;
 }
 
-.bgimg-1 {
+.backgroundtext {
   text-align: center;
   font-size: 172px;
   font-family: "Montserrat";
