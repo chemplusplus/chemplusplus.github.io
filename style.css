@@ -103,7 +103,6 @@ nav ul li.btn.hide i:before{
 }
 
 .backgroundtext {
-  text-align: center;
   font-family: "Montserrat";
   font-weight: 100;
 }
@@ -139,4 +138,10 @@ nav ul li.btn.hide i:before{
 
 .panel1{
   margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .maintext {
+    font-size: 90px;
+  }
 }
