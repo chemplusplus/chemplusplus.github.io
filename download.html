@@ -5,6 +5,7 @@
     <title>Chem++</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dropdown.css">
   </head>
   <body class="main">
     <nav>
@@ -17,13 +18,22 @@
           <li class="menu"><a href="https://github.com/Chemplusplus/Chemplusplus">Github</a></li>
           <li class="menu"><a href="https://discord.gg/UpYTWFYuHX">Discord</a></li>
           <li class="menu"><a href="download.html">Download</a></li>
+          <li class="menu"><a href="https://github.com/chemplusplus/Chem_Console">Chem++ Console Edition</a></li>
        </ul>
     </nav>
-
-    <form>
-      <input type="button" value="Download Chem++ - Windows"
-      onClick="window.location.href='main.jpg'" /> <!-- Swap the href with the installer .exe when it is created, maybe hosted on sourceforge?-->
-    </form>
+    <br>
+    <br>
+    <br>
+    <div class="dropdown" style="display: block;margin-left: auto;margin-right: auto;width: 10%;">
+      <h1>Download Chem++ Here</h1>
+      <button onclick="myFunction()" class="dropdownbtn">Download Chem++</button>
+        <div id="dropdownmain" class="dropdownmaincontent">
+          <a href="https://github.com/chemplusplus/Chemplusplus/releases/tag/0.1">Stable Release</a>
+          <a href="https://github.com/chemplusplus/Chemplusplus/releases/tag/0.1">Latest Release</a>
+          <a href="https://github.com/chemplusplus/Chem_Console">Stable Console Edition</a>
+          <a href="https://github.com/chemplusplus/Chem_Console">Latest Console Editions</a>
+      </div>
+  </div>
 
     <script src="script.js"></script>
   </body>

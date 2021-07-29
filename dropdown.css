@@ -1,0 +1,31 @@
+.dropdownbtn {
+  background-color: #17c3b2;
+  color: #fef9ef;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownmaincontent {
+  display: none;
+  position: absolute;
+  background-color: #17c3b2;
+  min-width: 160px;
+}
+
+.dropdownmaincontent a {
+  color: #fef9ef;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.show {display:block;}
