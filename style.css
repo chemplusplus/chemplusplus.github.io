@@ -138,11 +138,24 @@ nav ul li.btn.hide i:before{
 
 .panel1{
   margin-left: 20px;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.panel2{
+  margin-right: 20px;
+  right: 2;
+  text-align: right;
 }
 
 @media screen and (max-width: 600px) {
   .maintext {
     font-size: 60px;
+      user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
   }
 }
 
