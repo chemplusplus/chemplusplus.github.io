@@ -1,38 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
-.main{
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
+.main {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", 'Montserrat';
+  font-family: "Open Sans", "Montserrat";
   color: #fef9ef;
   background-color: #373e40;
 }
 
-nav{
+nav {
   background: #121212;
   padding: 5px 40px;
 }
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-nav ul li{
+nav ul li {
   padding: 15px 0;
   cursor: pointer;
 }
-nav ul li.menu{
+nav ul li.menu {
   position: relative;
   width: auto;
   margin: 0 16px;
   text-align: center;
   order: 3;
 }
-nav ul li.menu:after{
+nav ul li.menu:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: 5px;
   height: 2px;
@@ -41,11 +41,11 @@ nav ul li.menu:after{
   opacity: 0;
   transition: all 0.2s linear;
 }
-nav ul li.menu:hover:after{
+nav ul li.menu:hover:after {
   opacity: 1;
   bottom: 8px;
 }
-nav ul li.title{
+nav ul li.title {
   flex: 1;
   color: white;
   font-size: 23px;
@@ -53,49 +53,48 @@ nav ul li.title{
   cursor: default;
   user-select: none;
 }
-nav ul li a{
+nav ul li a {
   color: white;
   font-size: 18px;
   text-decoration: none;
-  transition: .4s;
+  transition: 0.4s;
 }
-nav ul li:hover a{
+nav ul li:hover a {
   color: #17c3b2;
 }
-nav ul li i{
+nav ul li i {
   font-size: 23px;
 }
-nav ul li.btn{
+nav ul li.btn {
   display: none;
 }
-nav ul li.btn.hide i:before{
-  content: '\f00d';
+nav ul li.btn.hide i:before {
+  content: "\f00d";
 }
-@media all and (max-width: 900px){
-  nav{
+@media all and (max-width: 900px) {
+  nav {
     padding: 5px 30px;
   }
-  nav ul li.items{
+  nav ul li.items {
     width: 100%;
     display: none;
   }
-  nav ul li.items.show{
+  nav ul li.items.show {
     display: block;
   }
-  nav ul li.btn{
+  nav ul li.btn {
     display: block;
   }
-  nav ul li.items:hover{
+  nav ul li.items:hover {
     border-radius: 5px;
-    box-shadow: inset 0 0 5px #17c3b2,
-                inset 0 0 10px #17c3b2;
+    box-shadow: inset 0 0 5px #17c3b2, inset 0 0 10px #17c3b2;
   }
-  nav ul li.items:hover:after{
+  nav ul li.items:hover:after {
     opacity: 0;
   }
 }
 
-.backgroundtext{
+.backgroundtext {
   position: relative;
   opacity: 0.65;
   background-position: center;
@@ -124,34 +123,37 @@ nav ul li.btn.hide i:before{
   letter-spacing: 10px;
 }
 
-.footer{
+.footer {
   position: relative;
 }
 
-.footertext{
-  color:#fef9ef;
-  background-color:#373e40;
-  text-align:center;
-  padding:50px 80px;
+.footertext {
+  color: #fef9ef;
+  background-color: #373e40;
+  text-align: center;
+  padding: 50px 80px;
   text-align: justify;
 }
 
-.panel1{
+.panel1 {
   margin-left: 20px;
   font-family: "Montserrat";
   font-weight: 100;
+  width: 50%;
 }
 
-.panel2{
+.panel2 {
   margin-right: 20px;
   right: 2;
   text-align: right;
+  width: 50%;
+  margin-left: 48%;
 }
 
 @media screen and (max-width: 600px) {
   .maintext {
     font-size: 60px;
-      user-select: none; /* supported by Chrome and Opera */
+    user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Firefox */
@@ -159,6 +161,6 @@ nav ul li.btn.hide i:before{
   }
 }
 
-a{
+a {
   color: #17c3b2;
 }
