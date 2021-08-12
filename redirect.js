@@ -10,10 +10,6 @@ function DiscordRedirect() {
   location.replace("https://discord.gg/UpYTWFYuHX")
 }
 
-function ConsoleRedirect() {
-  location.replace("https://github.com/chemplusplus/Chem_Console")
-}
-
 function SlipperyRedirect() {
   location.replace("https://github.com/SlipperyDuck777")
 }
