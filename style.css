@@ -164,4 +164,43 @@ nav ul li.btn.hide i:before {
 a {
   color: #17c3b2;
   style="cursor:pointer;"
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+}
+
+.title {
+  color: #fef9ef;
+  font-size: 18px;
+}
+
+button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #fef9ef;
+  background-color: #17c3b2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.9;
+}
+
+.contactbutton a{
+  color: #fef9ef;
+  text-decoration: none;
+}
+
+.contactcards{
+  display: flex;
+  justify-content: center;
 }
