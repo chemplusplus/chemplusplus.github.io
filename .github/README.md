@@ -24,18 +24,31 @@ The information of the elements comes from the [National Library of Medicine](ht
 First, you need to [install Git](https://www.jcchouinard.com/install-git/) on your computer.
 Open your terminal and navigate to the folder where you want to install Chem++. Then type:
 ```sh
-git clone https://www.github.com/MarkusFrig/Chemplusplus
+git clone https://www.github.com/chemplusplus/Chemplusplus
 ```
 ### Linux:
 Go to the Linux terminal and type:
 ```sh
-git clone https://www.github.com/MarkusFrig/Chemplusplus
+git clone https://www.github.com/chemplusplus/Chemplusplus
+```
+### Debian:
+Go to the Linux terminal and type:
+```sh
+python --version
+```
+If that returns `2.x` try this:
+```sh
+python3 --version
+```
+If that returns `3.x` type:
+```sh
+git clone https://www.github.com/chemplusplus/Chemplusplus
 ```
 ### Mac:
 First, you need to [install Git](https://www.jcchouinard.com/install-git/) on your computer.
 Open your terminal and navigate to the folder where you want to install Chem++. Then type:
 ```sh
-git clone https://www.github.com/MarkusFrig/Chemplusplus
+git clone https://www.github.com/chemplusplus/Chemplusplus
 ```
 # How To Use
 Windows:
