@@ -28,7 +28,6 @@
   <body class="main">
     <nav style="cursor:pointer;">
       <ul>
-        <li lang="en" title="Home" class="title"><a href="index.html"><img style="width: 64px;height: 64px;vertical-align: middle;" src="https://raw.githubusercontent.com/chemplusplus/Chemplusplus/main/Chem%2B%2B%20Logo/Chem%2B%2Bblackbg.png">&nbsp;Chem++</a></li>
         <li title="Home" class="menu"><a href="index.html">Home</a></li>
         <li title="About" class="menu"><a href="about.html">About</a></li>
         <li title="Contact" class="menu"><a href="contact.html">Contact</a></li>
@@ -46,92 +45,222 @@
 
       Chem++
     </div>
-    <div style="position:relative;">
-      <div style="color:#fef9ef;background-color:#373e40;text-align:center;padding:50px 80px;text-align: justify;">
-        <h1 id="chem-">Chem++</h1>
-        <p>This is a chemistry application that provides all the info you need. Made for students by students, this will help you ace your next chemistry test!</p>
-        <h1 id="notice">Notice</h1>
-        <p>The information of the elements comes from the <a onclick="PubChemPeriodic()">National Library of Medicine</a>.</p>
-        <h1 id="how-to-install">How To Install</h1>
-        <h3 id="windows-">Windows:</h3>
-        <p>First, you need to <a onclick="InstallGit()">install Git</a> on your computer.
-        Open your terminal and navigate to the folder where you want to install Chem++. Then type:</p>
-        <pre><code class="language-bash">git clone https://www.github.com/Chemplusplus/Chemplusplus</code></pre>
-        <h3 id="linux-">Linux:</h3>
-        <p>Go to the Linux terminal and type:</p>
-        <pre><code class="language-shell">python --version</code></pre>
-        <p>If that returns 2.x try this:</p>
-        <pre><code class="language-shell">python3 --version</code></pre>
-        <p>If that returns `3.x` type:</p>
-        <pre><code class="language-shell">git clone https://www.github.com/Chemplusplus/Chemplusplus</code></pre>
-        <h3 id="mac-">Mac:</h3>
-        <p>First, you need to <a onclick="InstallGit()">install Git</a> on your computer.
-        Open your terminal and navigate to the folder where you want to install Chem++. Then type:</p>
-        <pre><code class="language-shell">git clone https://www.github.com/Chemplusplus/Chemplusplus</code></pre>
-        <h1 id="dependencies">Dependencies</h1>
-        <p>You will need to have the following installed in order to run Chem++</p>
-        <ol>
-        <li><a onclick="InstallPy()">Python 3.5+</a></li>
-        <li><a onclick="InstallTk()">Tkinter</a> (Properly installed) {For Linux Users}</li>
-        </ol>
-        <h1 id="documentation">Documentation</h1>
-        <p>Here Is The Offical Documentation For Chem++</p>
-        <h2 id="info">Info</h2>
-        <p>When you call the info command in the application it will return the following information about the element</p>
-        <ol>
-        <li>AtomicNumber</li>
-        <br>
-        <li>Symbol</li>
-        <br>
-        <li>Name</li>
-        <br>
-        <li>AtomicMass</li>
-        <br>
-        <li>CPKHexColor</li>
-        <br>
-        <li>ElectronConfiguration</li>
-        <br>
-        <li>Electronegativity</li>
-        <br>
-        <li>AtomicRadius</li>
-        <br>
-        <li>IonizationEnergy</li>
-        <br>
-        <li>ElectronAffinity</li>
-        <br>
-        <li>OxidationStates</li>
-        <br>
-        <li>StandardState</li>
-        <br>
-        <li>MeltingPoint</li>
-        <br>
-        <li>BoilingPoint</li>
-        <br>
-        <li>Density</li>
-        <br>
-        <li>GroupBlock</li>
-        <br>
-        <li>YearDiscovered</li>
-        <br>
-        </ol>
-        <p>At the time of writing this documentation there is no margin for error when it comes to spelling the name of the element correctly. It must be spelled correctly with the first letter being capitalized.</p>
-        <h2 id="bohr-diagram">Bohr Diagram</h2>
-        <p>When you call for a bohr diagram from the application it will create a new window with the diagram along with the following information</p>
-        <ol>
-        <li>The charge</li>
-        <br>
-        <li>The number of electrons</li>
-        <br>
-        </ol>
-        <p>At the time of writing this documentation there is no margin for error when it comes to spelling the name of the element correctly. It must be spelled correctly with the first letter being capitalized.</p>
-        <h2 id="unit-conversion">Unit Conversion</h2>
-        <p>When you call the unit conversion button a new window will pop up. The element you put into the original box will be used for calculations as each elemnts has a different grams to mole ratio. At the time of writing this only one input field can have information i.e. 5 mols of Helium or 10g of Hydrogen. There is a clear button in the bottom right which automaticall clears the boxes for ease of access. There is also an enter button. When this is pressed it will automatically fill the remaining boxes with thir according values.</p>
-        <h2 id="search-bar">Search Bar</h2>
-        <p>The search bar eliminates the need for the user to open a browser. Whatever is entered into the input will be sent to the chemistry stack exchange. It will take the top 3 results and display them in a new window. There are forward and backward buttons which can be pressed in the top left of this new window, these allow you to shift between the answers. At the time of writing this there are still problems with the formatting of the questions.</p>
-        <h2 id="equation-balancer">Equation Balancer</h2>
-        <p>This feature is soon to come to chem++. It will balence all equations provided they have been inputted correctly</p>
-        <h2 id="contact">Contact</h2>
-        <p>If you have any questions please ask them in our discord server</p>
+      <h1 id="chem-">Chem++</h1>
+      <p>This is a chemistry application that provides all the info you need. Made for students by students, this will help you ace your next chemistry test!</p>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/Chemplusplus/main/Chem++%20Logo/Chem++_Secondary.png" alt="Chem++ Logo"></p>
+      <p><img src="https://img.shields.io/github/downloads/chemplusplus/Chemplusplus/total?logo=github&amp;style=for-the-badge" alt="GitHub all releases">  <img src="https://img.shields.io/github/v/release/chemplusplus/Chemplusplus?logo=github&amp;style=for-the-badge" alt="GitHub release (latest by date)"> <img src="https://img.shields.io/github/stars/chemplusplus/Chemplusplus?logo=github&amp;style=for-the-badge" alt="GitHub Repo stars"> <img src="https://img.shields.io/github/languages/count/chemplusplus/Chemplusplus?logo=github&amp;style=for-the-badge" alt="GitHub language count"> <img src="https://img.shields.io/github/contributors/chemplusplus/Chemplusplus?logo=github&amp;style=for-the-badge" alt="GitHub contributors">
+      <br>
+      <img src="https://img.shields.io/discord/867552939844567050?label=Discord&amp;logo=discord&amp;style=for-the-badge" alt="Discord"> <img src="https://img.shields.io/youtube/channel/subscribers/UCpEM2XbpmKpsQq8ylxxlRjA?logo=youtube&amp;style=for-the-badge" alt="YouTube Channel Subscribers"> <img src="https://img.shields.io/reddit/subreddit-subscribers/chemplusplus?logo=reddit&amp;style=for-the-badge" alt="Subreddit subscribers"> <img src="https://img.shields.io/website?down_color=red&amp;down_message=offline&amp;style=for-the-badge&amp;up_color=green&amp;up_message=online&amp;url=https%3A%2F%2Fchemplusplus.github.io" alt="Website"></p>
+      <h1 id="table-of-contents-book-">Table of Contents :book:</h1>
+      <table>
+      <thead>
+      <tr>
+      <th>Chapter</th>
+      <th>Title</th>
+      <th>Author</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>1</td>
+      <td><a href="#chem">Chem++</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>2</td>
+      <td><a href="#table-of-contents">Table of Contents</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>3</td>
+      <td><a href="#notice">Notice</a></td>
+      <td><a href="https://github.com/MakusFrig">MakusFrig</a></td>
+      </tr>
+      <tr>
+      <td>4</td>
+      <td><a href="#how-to-install">How To Install</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a> &amp; <a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      </tr>
+      <tr>
+      <td>5</td>
+      <td><a href="#how-to-use">How To Use</a></td>
+      <td><a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      </tr>
+      <tr>
+      <td>6</td>
+      <td><a href="#important">IMPORTANT</a></td>
+      <td><a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      </tr>
+      <tr>
+      <td>7</td>
+      <td><a href="#dependencies">Dependencies</a></td>
+      <td><a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      </tr>
+      <tr>
+      <td>8</td>
+      <td><a href="#visit-our-website">Visit Our Website</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>9</td>
+      <td><a href="#for-developers">For Developers</a></td>
+      <td><a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      </tr>
+      <tr>
+      <td>10</td>
+      <td><a href="#documentation">Documentation</a></td>
+      <td><a href="https://github.com/MakusFrig">MakusFrig</a> &amp; <a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>11</td>
+      <td><a href="#contact">Contact</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>12</td>
+      <td><a href="#licence">Licence</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      <tr>
+      <td>13</td>
+      <td><a href="#credits">Credits</a></td>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      </tr>
+      </tbody>
+      </table>
+      <h1 id="notice">Notice</h1>
+      <p>All the information regarding elements comes from the <a href="https://pubchem.ncbi.nlm.nih.gov/periodic-table/">National Library of Medicine</a>.</p>
+      <h1 id="how-to-install">How To Install</h1>
+      <h3 id="windows-">Windows:</h3>
+      <p>Head over to the download section of our <a href="https://chemplusplus.github.io/download.html">Website</a>. Click on the Download Chem++ button.
+      Select Windows, wait until the download completes, read <a href="#how-to-use">How To Use</a> and your good to go.</p>
+      <h3 id="linux-">Linux:</h3>
+      <p>Head over to the download section of our <a href="https://chemplusplus.github.io/download.html">Website</a>. Click on the Download Chem++ button.
+      Select Linux, wait until the download completes, read <a href="#how-to-use">How To Use</a> and your good to go.</p>
+      <h3 id="macos-">MacOS:</h3>
+      <p>Head over to the download section of our <a href="https://chemplusplus.github.io/download.html">Website</a>. Click on the Download Chem++ button.
+      Select MacOS, wait until the download completes, read <a href="#how-to-use">How To Use</a> and your good to go.</p>
+      <h1 id="how-to-use">How To Use</h1>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3LeAn9irxos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3 id="windows-">Windows:</h3>
+      <p>Double click the executable <code>Chem++ Windows.exe</code></p>
+      <h3 id="linux-">Linux:</h3>
+      <p>Double click the executable <code>Chem++ Linux.exe</code></p>
+      <h3 id="macos-">MacOS:</h3>
+      <p>Double click the executable <code>Chem++ Mac_OS</code></p>
+      <h1 id="important">IMPORTANT</h1>
+      <p>If your antivirus detects our software as being malicious, please let us know and report it as a false positive. Our software is not malicious.</p>
+      <h1 id="dependencies">Dependencies</h1>
+      <p>None required :)
+      Simply run the executable for your operating system.</p>
+      <h1 id="visit-our-website">Visit Our Website</h1>
+      <p>Our website was coded in HTML and can be found <a href="https://chemplusplus.github.io">here</a>.</p>
+      <h1 id="for-developers">For Developers</h1>
+      <p>Our executable files are compiled using <a href="https://www.pyinstaller.org/">PyInstaller</a>. The preconfigured spec files are located in the <code>..\Chemplusplus\Spec_Files</code> directory.</p>
+      <h1 id="documentation">Documentation</h1>
+      <p>Here is the Official Documentation for Chem++</p>
+      <h2 id="info">Info</h2>
+      <p>When you call the info command in the application it will return the following information about the element:</p>
+      <ol>
+      <li><code>AtomicNumber</code></li>
+      <li><code>Symbol</code></li>
+      <li><code>Name</code></li>
+      <li><code>AtomicMass</code></li>
+      <li><code>CPKHexColor</code></li>
+      <li><code>ElectronConfiguration</code></li>
+      <li><code>Electronegativity</code></li>
+      <li><code>AtomicRadius</code></li>
+      <li><code>IonizationEnergy</code></li>
+      <li><code>ElectronAffinity</code></li>
+      <li><code>OxidationStates</code></li>
+      <li><code>StandardState</code></li>
+      <li><code>MeltingPoint</code></li>
+      <li><code>BoilingPoint</code></li>
+      <li><code>Density</code></li>
+      <li><code>GroupBlock</code></li>
+      <li><code>YearDiscovered</code></li>
+      </ol>
+      <h2 id="bohr-diagram">Bohr Diagram</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/bohr_diagram_page.png" alt="Bohr Diagram"></p>
+      <p>When you call for a bohr diagram from the application, it will create a new window with the diagram, along with the charge, and the number of electrons.</p>
+      <h2 id="unit-conversion">Unit Conversion</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/unit_page.png" alt="Unit Conversion"></p>
+      <p>When you click the unit conversion button a new window will pop up. The element you put into the original box will be used for calculations as each element has a different grams to mole ratio. At the time of writing this only one input field can have information i.e. <code>5 mols</code> of Helium or <code>10g</code> of Hydrogen. There is a clear button, and an enter button, in the bottom right which automatically clears the boxes for ease of access.  When the enter button is pressed it will automatically fill the remaining boxes with their according values.</p>
+      <h2 id="search-bar">Search Bar</h2>
+      <p>The search bar eliminates the need for the user to open a browser. Whatever is entered into the input will be sent to the <a href="https://chemistry.stackexchange.com/">Chemistry Stack Exchange</a>, it will take the top 3 results and display them in a new window. There are forward and backward buttons which can be pressed in the top left of this new window, these allow you to shift between the answers. We are working on formatting the results.</p>
+      <h2 id="equation-balancer">Equation Balancer</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/balence.png" alt="Equation Balancer"></p>
+      <p>The equation balancer eliminates the need to do complex calculations. By simply entering your unbalanced equation and clicking on get balance, your balanced equation will be returned to you in milliseconds!</p>
+      <h2 id="compound-diagram">Compound Diagram</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/compound_diagram_page.png" alt="Compound Diagram"></p>
+      <p>No need to open an browser! After entering a compound name, clicking on <code>get struct</code>, your entry will be searched on the pubchem database. In a few seconds, your compound diagram will be returned back to you.</p>
+      <h2 id="significant-figures">Significant Figures</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/sigfig.png" alt="Significant Figures"></p>
+      <p>Ever wondering how to write a number in 4 <code>sf</code>? No need to worry anymore! By simply entering your number into the <code>Insert Number</code> field, the <code>sf</code> into the <code>Places</code> field, and clicking on get result, the answer will instantly appear in the <code>Insert Number</code> field.</p>
+      <h2 id="scientific-notation">Scientific Notation</h2>
+      <p><img src="https://raw.githubusercontent.com/chemplusplus/chemplusplus.github.io/main/Screenshots/notation.png" alt="Scientific Notation"></p>
+      <p>Scientific Notation is sometimes hard to understand. By simply entering a number and clicking on <code>get sci notation</code>, you will instantly know how to write a number in Scientific Notation.</p>
+      <h2 id="limiting-reagent">Limiting Reagent</h2>
+      <p><em>Coming Soon.</em></p>
+      <h2 id="view-periodic-table">View Periodic Table</h2>
+      <p>Did you lose your periodic table? No need to look online for one, simply click on view and a high quality periodic table will appear.</p>
+      <h1 id="contact">Contact</h1>
+      <p>If you have any questions please ask them in our <a href="https://discord.gg/UpYTWFYuHX">Discord server</a>
+      You can also email us at <a href="mailto:chemplusplus@gmail.com">chemplusplus@gmail.com</a></p>
+      <h1 id="licence">Licence</h1>
+      <p>This project uses the <a href="https://github.com/chemplusplus/Chemplusplus/blob/main/LICENSE">GNU General Public License v3.0</a>, please refer to it to see what you can and can not do with the project.
+      @icon-github</p>
+      <h1 id="credits">Credits</h1>
+      <p>Thank you to the following, who contributed to <a href="https://github.com/chemplusplus/Chemplusplus">Chem++</a>, <a href="https://chemplusplus.github.io">The Chem++ Website</a>, <a href="https://github.com/chemplusplus/Chem_Console">Chem++ Console</a>, and <a href="https://github.com/chemplusplus/Chem-Web">Web Edition</a>, and the <a href="https://github.com/chemplusplus/Contact-Form">Contact-Form</a> repository.</p>
+      <table>
+      <thead>
+      <tr>
+      <th>User</th>
+      <th>Commits</th>
+      <th>Pull Requests</th>
+      <th>Issues</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td><a href="https://github.com/MakusFrig">MakusFrig</a></td>
+      <td>170</td>
+      <td>1</td>
+      <td>0</td>
+      </tr>
+      <tr>
+      <td><a href="https://github.com/WayneSeng">WayneSeng</a></td>
+      <td>24</td>
+      <td>5</td>
+      <td>0</td>
+      </tr>
+      <tr>
+      <td><a href="https://github.com/SlipperyDuck777">SlipperyDuck777</a></td>
+      <td>119</td>
+      <td>3</td>
+      <td>0</td>
+      </tr>
+      <tr>
+      <td><a href="https://github.com/shreyshreyansh">shreyshreyansh</a></td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      </tr>
+      <tr>
+      <td><a href="https://github.com/Gatorific888">Gatorific888</a></td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      </tr>
+      <tr>
+      <td><a href="https://github.com/crthpl">crthpl</a></td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      </tr>
+      </tbody>
+      </table>
+      <p>All data as of August 21st 2021</p>
         <div class="footer">
           <div class="footertext">
             <em><p>Web Design by <a title="SlipperyDuck777" onclick="SlipperyRedirect()">SlipperyDuck777</a></p></em>
