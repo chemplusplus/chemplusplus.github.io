@@ -140,14 +140,16 @@ nav ul li.btn.hide i:before {
 
 .footer {
   position: relative;
+  background-color: #121212;
 }
 
 .footertext {
   color: #fef9ef;
-  background-color: #373e40;
+  background-color: #121212;
   text-align: center;
   padding: 50px 80px;
   text-align: center;
+  style="cursor:pointer;
 }
 
 
