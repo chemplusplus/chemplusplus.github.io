@@ -95,6 +95,20 @@ nav ul li.btn.hide i:before {
   }
 }
 
+@media only screen and (min-width:700px){
+
+  .menu_text { display: block; }
+  .menu_icon { display: none; }
+
+}
+
+@media only screen and (max-width:700px){
+
+   .menu_text { display: none; }
+   .menu_icon { display: block; }
+
+ }
+
 .backgroundtext {
   position: relative;
   opacity: 0.65;
@@ -136,19 +150,22 @@ nav ul li.btn.hide i:before {
   text-align: center;
 }
 
-.panel1 {
-  margin-left: 20px;
-  font-family: "Montserrat";
-  font-weight: 100;
-  width: 50%;
-}
 
-.panel2 {
-  margin-right: 20px;
-  right: 2;
-  text-align: right;
-  width: 50%;
-  margin-left: 48%;
+@media only screen and (min-width:700px){
+  .panel1 {
+    margin-left: 20px;
+    font-family: "Montserrat";
+    font-weight: 100;
+    width: 50%;
+  }
+
+  .panel2 {
+    margin-right: 20px;
+    right: 2;
+    text-align: right;
+    width: 50%;
+    margin-left: 48%;
+  }
 }
 
 @media screen and (max-width: 600px) {
