@@ -55,7 +55,7 @@ Double click the executable `Chem++ Windows.exe`
 Double click the executable `Chem++ Linux.exe`
 
 ### MacOS:
-Double click the executable `Chem++ Mac_OS`
+Drag the `Chem++ OSX64.app` directory into your applications folder.
 
 # IMPORTANT :warning:
 
