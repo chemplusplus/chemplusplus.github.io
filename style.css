@@ -149,7 +149,7 @@ nav ul li.btn.hide i:before {
   text-align: center;
   padding: 50px 80px;
   text-align: center;
-  style="cursor:pointer;
+  cursor: pointer;
 }
 
 
@@ -163,7 +163,7 @@ nav ul li.btn.hide i:before {
 
   .panel2 {
     margin-right: 20px;
-    right: 2;
+    right: 2px;
     text-align: right;
     width: 50%;
     margin-left: 48%;
