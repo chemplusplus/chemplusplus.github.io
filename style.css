@@ -242,3 +242,13 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid #121212;  /* creates padding around scroll thumb */
 }
+
+.pagenotfound {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.pagenotfoundlogo {
+  width: 256px;
+  height: 256px;
+}
