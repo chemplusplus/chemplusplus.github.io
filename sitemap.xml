@@ -22,6 +22,13 @@
   </url>
 
   <url>
+  <loc>https://chemplusplus.github.io/contact.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.1</priority>
+  <lastmod>2021-02-25</lastmod>
+  </url>
+
+  <url>
   <loc>https://chemplusplus.github.io/download.html</loc>
   <changefreq>weekly</changefreq>
   <priority>1</priority>
@@ -60,7 +67,7 @@
   <loc>https://chemplusplus.github.io/style.css</loc>
   <changefreq>monthly</changefreq>
   <priority>0.7</priority>
-  <lastmod>2021-08-09</lastmod>
+  <lastmod>2021-02-25</lastmod>
   </url>
 
   <url>
